@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  background: #e85a9b;
+  font-family: Arial, sans-serif;
+}
+
+.divider {  /* HEADER IMAGE: Centers and sizes the divider/logo */
+  display: block;
+  width: 350px;
+  margin: 20px auto 15px auto;
+}
+
+.top-bar {  /* TOP BAR: Uses flexbox to align navigation and cart */
+  width: 420px;
+  margin: 0 auto 30px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ 
+.navigation ul{  /* NAVIGATION: Removes bullets and lays links in a row */
+  list-style-type: none;
+  padding: 0;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.navigation a { /* NAV LINKS: Makes links clear and styled */
+  color: blue;
+  font-weight: bold;
+  text-decoration: none;
+  margin-right: 18px;
+}
+
+.cart-conteiner{  /* CART ICON: Positions the shopping basket in top corner */
+  position: absolute;
+  right: 40px;
+  top: 40px;
+}
+.cart {
+  width: 35px;
+  
+}
+
+.gallery {
+  width: 550px;
+  margin: 0 auto;  /* Centers gallery on the page */
+}
+
+.photo {
+  margin-bottom: 25px;
+}
+
+.photo img {
+  width: 100%;
+  display: block;
+}
+
+.caption {
+  margin: 0;
+  padding: 10px;
+  background: #efe8d2;
+  color: #49d7e8;
+  font-weight: bold;
+}
+
+.photo a {
+  font-size: 12px;
+  color: black;
+  text-decoration: none;
+}
+.button{
+    background-color:#d4d4d4;
+    cursor:pointer;
+}
+footer{
+    margin-top:40px;      /* space above the footer */
+    margin-bottom:40px;   /* space below the footer */
+    margin-left:20px;     /* keeps it on the left */
+    font-weight:bold;     /* makes the text bold */
+}

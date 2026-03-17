@@ -1,1 +1,67 @@
+<!DOCTYPE html> <!--declares the documents as HTML-->
+<html lang="en"> <!--language set to English-->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- makes the page responsive on different screen sizes -->
+  <title>The Wondering Photographer</title>
+  <link rel="stylesheet" href="style.css"> <!--link the CSS file-->
+</head>
+<body>
+  <header class="top-header">   <!-- Top section of the page (logo, navigation, cart) -->
+  <img src="./images/TheDivider.png" alt="divider" class="divider">   <!-- decor image -->
 
+    <nav class="navigation"> <!--navigation menu-->
+      <ul> <!--Unordered list-->
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Blog</a></li>
+      <li><a href="#">About me</a></li>
+      </ul>
+    </nav>
+
+    <div class="cart-conteiner"> <!-- Container for shopping cart icon -->
+      <img src="./images/shopping.svg" alt="Shopping basket" class="cart">   <!-- Shopping basket icon -->
+
+    </div>
+
+  </header>
+  
+  <main class="gallery">
+    <div class="photo">
+      <img src="./images/OceanPhoto.jpg" alt="Greenland coast">
+      <p class="caption">
+        This was from a fabulous trip to the cost of Greenland with my family.
+        The water was lovely - but very cold!
+      </p>
+      <button>Add to basket</button> <!--clickable button-->
+    </div>
+
+    <div class="photo">
+      <img src="./images/BridgePhoto.jpg" alt="Golden Gate Bridge">
+      <p class="caption">
+        A picture of the Golden Gate Bridge. New York! New York!
+      </p>
+      <button>Add to basket</button>
+    </div>
+
+    <div class="photo">
+      <img src="./images/ValleyPhoto.jpg" alt="River valley">
+      <p class="caption">
+        Another great photo from Greenland. It's a river valley where a glacier used to be.
+      </p>
+      <button>Add to basket</button>
+    </div>
+
+    <div class="photo">
+      <img src="./images/WaterfallPhoto.jpg" alt="Waterfall">
+      <p class="caption">
+        The waterfall made such a lovely sound. I could have fallen asleep!
+      </p>
+      <button>Add to basket</button>
+
+    </div>
+  </main>
+
+</body>
+
+<footer>Copyright The Wondering Photographer 2018.</footer>
+</html>
